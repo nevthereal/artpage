@@ -10,6 +10,13 @@ h1 {
 h2 {
     @apply text-3xl md:text-2xl
 }
+h4 {
+    @apply text-gray-400 text-sm uppercase font-bold
+}
+
+a.link {
+    @apply underline hover:text-cyan-600 duration-150
+}
 
 .bg-banner {
     background-image: url(./assets/misc/banner.png);
