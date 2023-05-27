@@ -13,6 +13,8 @@ import Mountains from './sections/Mountains'
 import Venom from './sections/Venom'
 import Windows from './sections/Windows'
 import Woods from './sections/Woods'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 
 const Gallery = () => {
   return (
@@ -35,7 +37,7 @@ const Gallery = () => {
         <a className='text-gray-600 fixed right-4 bottom-4 text-3xl m-4' href="https://instagram.com/neville_artwork" target='_blank' rel='noreferrer'><i className="fa-brands fa-instagram"></i></a>
         <footer className='bg-black p-8 text-center text-white font-bold'>
           <p className='uppercase'>©Copyright <a href="https://nevillebrem.com" className='link'>Neville Brem</a> <br />
-          <i className="fa-solid fa-location-dot"></i> Zurich, Switzerland</p>
+          <FontAwesomeIcon icon={faLocationDot} /> Zurich, Switzerland</p>
         </footer>
     </div>
   )
